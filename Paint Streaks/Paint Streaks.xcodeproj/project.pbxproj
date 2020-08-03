@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0DF3A0924D86B63009260FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A0824D86B63009260FE /* AppDelegate.swift */; };
+		A0DF3A0B24D86B63009260FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A0A24D86B63009260FE /* SceneDelegate.swift */; };
+		A0DF3A0D24D86B63009260FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A0C24D86B63009260FE /* HomeViewController.swift */; };
+		A0DF3A1024D86B63009260FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DF3A0E24D86B63009260FE /* Main.storyboard */; };
+		A0DF3A1324D86B63009260FE /* Paint_Streaks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A1124D86B63009260FE /* Paint_Streaks.xcdatamodeld */; };
+		A0DF3A1524D86B67009260FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DF3A1424D86B67009260FE /* Assets.xcassets */; };
+		A0DF3A1824D86B67009260FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DF3A1624D86B67009260FE /* LaunchScreen.storyboard */; };
+		A0DF3A2324D86B67009260FE /* Paint_StreaksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A2224D86B67009260FE /* Paint_StreaksTests.swift */; };
+		A0DF3A2E24D86B67009260FE /* Paint_StreaksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF3A2D24D86B67009260FE /* Paint_StreaksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0DF3A1F24D86B67009260FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0DF39FD24D86B63009260FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DF3A0424D86B63009260FE;
+			remoteInfo = "Paint Streaks";
+		};
+		A0DF3A2A24D86B67009260FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0DF39FD24D86B63009260FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DF3A0424D86B63009260FE;
+			remoteInfo = "Paint Streaks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0DF3A0524D86B63009260FE /* Paint Streaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paint Streaks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DF3A0824D86B63009260FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0DF3A0A24D86B63009260FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0DF3A0C24D86B63009260FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A0DF3A0F24D86B63009260FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0DF3A1224D86B63009260FE /* Paint_Streaks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Paint_Streaks.xcdatamodel; sourceTree = "<group>"; };
+		A0DF3A1424D86B67009260FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0DF3A1724D86B67009260FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0DF3A1924D86B67009260FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DF3A1E24D86B67009260FE /* Paint StreaksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint StreaksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DF3A2224D86B67009260FE /* Paint_StreaksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_StreaksTests.swift; sourceTree = "<group>"; };
+		A0DF3A2424D86B67009260FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DF3A2924D86B67009260FE /* Paint StreaksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint StreaksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DF3A2D24D86B67009260FE /* Paint_StreaksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_StreaksUITests.swift; sourceTree = "<group>"; };
+		A0DF3A2F24D86B67009260FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0DF3A0224D86B63009260FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A1B24D86B67009260FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A2624D86B67009260FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0DF39FC24D86B63009260FE = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A0724D86B63009260FE /* Paint Streaks */,
+				A0DF3A2124D86B67009260FE /* Paint StreaksTests */,
+				A0DF3A2C24D86B67009260FE /* Paint StreaksUITests */,
+				A0DF3A0624D86B63009260FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0DF3A0624D86B63009260FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A0524D86B63009260FE /* Paint Streaks.app */,
+				A0DF3A1E24D86B67009260FE /* Paint StreaksTests.xctest */,
+				A0DF3A2924D86B67009260FE /* Paint StreaksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DF3A0724D86B63009260FE /* Paint Streaks */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A3C24D86B80009260FE /* Resources */,
+				A0DF3A3B24D86B7B009260FE /* Src */,
+				A0DF3A1924D86B67009260FE /* Info.plist */,
+				A0DF3A1124D86B63009260FE /* Paint_Streaks.xcdatamodeld */,
+			);
+			path = "Paint Streaks";
+			sourceTree = "<group>";
+		};
+		A0DF3A2124D86B67009260FE /* Paint StreaksTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A2224D86B67009260FE /* Paint_StreaksTests.swift */,
+				A0DF3A2424D86B67009260FE /* Info.plist */,
+			);
+			path = "Paint StreaksTests";
+			sourceTree = "<group>";
+		};
+		A0DF3A2C24D86B67009260FE /* Paint StreaksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A2D24D86B67009260FE /* Paint_StreaksUITests.swift */,
+				A0DF3A2F24D86B67009260FE /* Info.plist */,
+			);
+			path = "Paint StreaksUITests";
+			sourceTree = "<group>";
+		};
+		A0DF3A3B24D86B7B009260FE /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A4024D86BB7009260FE /* Home */,
+				A0DF3A3F24D86BA4009260FE /* Base */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		A0DF3A3C24D86B80009260FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A3E24D86B8F009260FE /* Storyboard */,
+				A0DF3A3D24D86B8A009260FE /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0DF3A3D24D86B8A009260FE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A1424D86B67009260FE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A0DF3A3E24D86B8F009260FE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A0E24D86B63009260FE /* Main.storyboard */,
+				A0DF3A1624D86B67009260FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A0DF3A3F24D86BA4009260FE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A0824D86B63009260FE /* AppDelegate.swift */,
+				A0DF3A0A24D86B63009260FE /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A0DF3A4024D86BB7009260FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF3A0C24D86B63009260FE /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0DF3A0424D86B63009260FE /* Paint Streaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DF3A3224D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint Streaks" */;
+			buildPhases = (
+				A0DF3A0124D86B63009260FE /* Sources */,
+				A0DF3A0224D86B63009260FE /* Frameworks */,
+				A0DF3A0324D86B63009260FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paint Streaks";
+			productName = "Paint Streaks";
+			productReference = A0DF3A0524D86B63009260FE /* Paint Streaks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0DF3A1D24D86B67009260FE /* Paint StreaksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DF3A3524D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint StreaksTests" */;
+			buildPhases = (
+				A0DF3A1A24D86B67009260FE /* Sources */,
+				A0DF3A1B24D86B67009260FE /* Frameworks */,
+				A0DF3A1C24D86B67009260FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DF3A2024D86B67009260FE /* PBXTargetDependency */,
+			);
+			name = "Paint StreaksTests";
+			productName = "Paint StreaksTests";
+			productReference = A0DF3A1E24D86B67009260FE /* Paint StreaksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0DF3A2824D86B67009260FE /* Paint StreaksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DF3A3824D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint StreaksUITests" */;
+			buildPhases = (
+				A0DF3A2524D86B67009260FE /* Sources */,
+				A0DF3A2624D86B67009260FE /* Frameworks */,
+				A0DF3A2724D86B67009260FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DF3A2B24D86B67009260FE /* PBXTargetDependency */,
+			);
+			name = "Paint StreaksUITests";
+			productName = "Paint StreaksUITests";
+			productReference = A0DF3A2924D86B67009260FE /* Paint StreaksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0DF39FD24D86B63009260FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Paint Streaks";
+				TargetAttributes = {
+					A0DF3A0424D86B63009260FE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A0DF3A1D24D86B67009260FE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A0DF3A0424D86B63009260FE;
+					};
+					A0DF3A2824D86B67009260FE = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A0DF3A0424D86B63009260FE;
+					};
+				};
+			};
+			buildConfigurationList = A0DF3A0024D86B63009260FE /* Build configuration list for PBXProject "Paint Streaks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0DF39FC24D86B63009260FE;
+			productRefGroup = A0DF3A0624D86B63009260FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0DF3A0424D86B63009260FE /* Paint Streaks */,
+				A0DF3A1D24D86B67009260FE /* Paint StreaksTests */,
+				A0DF3A2824D86B67009260FE /* Paint StreaksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0DF3A0324D86B63009260FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DF3A1824D86B67009260FE /* LaunchScreen.storyboard in Resources */,
+				A0DF3A1524D86B67009260FE /* Assets.xcassets in Resources */,
+				A0DF3A1024D86B63009260FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A1C24D86B67009260FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A2724D86B67009260FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0DF3A0124D86B63009260FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DF3A0D24D86B63009260FE /* HomeViewController.swift in Sources */,
+				A0DF3A0924D86B63009260FE /* AppDelegate.swift in Sources */,
+				A0DF3A1324D86B63009260FE /* Paint_Streaks.xcdatamodeld in Sources */,
+				A0DF3A0B24D86B63009260FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A1A24D86B67009260FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DF3A2324D86B67009260FE /* Paint_StreaksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DF3A2524D86B67009260FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DF3A2E24D86B67009260FE /* Paint_StreaksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0DF3A2024D86B67009260FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0DF3A0424D86B63009260FE /* Paint Streaks */;
+			targetProxy = A0DF3A1F24D86B67009260FE /* PBXContainerItemProxy */;
+		};
+		A0DF3A2B24D86B67009260FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0DF3A0424D86B63009260FE /* Paint Streaks */;
+			targetProxy = A0DF3A2A24D86B67009260FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0DF3A0E24D86B63009260FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DF3A0F24D86B63009260FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0DF3A1624D86B67009260FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DF3A1724D86B67009260FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0DF3A3024D86B67009260FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0DF3A3124D86B67009260FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0DF3A3324D86B67009260FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint Streaks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-Streaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0DF3A3424D86B67009260FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint Streaks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-Streaks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0DF3A3624D86B67009260FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint StreaksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-StreaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint Streaks.app/Paint Streaks";
+			};
+			name = Debug;
+		};
+		A0DF3A3724D86B67009260FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint StreaksTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-StreaksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint Streaks.app/Paint Streaks";
+			};
+			name = Release;
+		};
+		A0DF3A3924D86B67009260FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint StreaksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-StreaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paint Streaks";
+			};
+			name = Debug;
+		};
+		A0DF3A3A24D86B67009260FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TH87M3GY7;
+				INFOPLIST_FILE = "Paint StreaksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PaintStreaks.Paint-StreaksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paint Streaks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0DF3A0024D86B63009260FE /* Build configuration list for PBXProject "Paint Streaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DF3A3024D86B67009260FE /* Debug */,
+				A0DF3A3124D86B67009260FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DF3A3224D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint Streaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DF3A3324D86B67009260FE /* Debug */,
+				A0DF3A3424D86B67009260FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DF3A3524D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint StreaksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DF3A3624D86B67009260FE /* Debug */,
+				A0DF3A3724D86B67009260FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DF3A3824D86B67009260FE /* Build configuration list for PBXNativeTarget "Paint StreaksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DF3A3924D86B67009260FE /* Debug */,
+				A0DF3A3A24D86B67009260FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0DF3A1124D86B63009260FE /* Paint_Streaks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0DF3A1224D86B63009260FE /* Paint_Streaks.xcdatamodel */,
+			);
+			currentVersion = A0DF3A1224D86B63009260FE /* Paint_Streaks.xcdatamodel */;
+			path = Paint_Streaks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0DF39FD24D86B63009260FE /* Project object */;
+}
